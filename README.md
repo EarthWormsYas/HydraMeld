@@ -7,9 +7,43 @@ I made this because I was thinking about making an ARG using a polyglot file at 
 This script has also been made in such a way so that it can be used as a module for other python projects as well, so feel free to incorperate it however you wish!
 
 ## Supported file types.
-- To my knowledge **HydraMeld** currently supports the following file types:
-  - Image files
-  - Video files
-  - Audio files
-  - Executable files
-  - PDF files
+- Image file types:
+  - **PNG**
+  - **JPEG**
+  - **JPG**
+  - **GIF**
+  - **WebP**
+  - **BMP**
+  - **TIFF** > (both .tiff and .tif)
+  - **ICO**
+  - **CUR**
+  - **ICNS**
+  - **PSD**
+- Video file types:
+  - **MP4**
+  - **MOV**
+  - **MKV**
+  - **AVI**
+  - **WebM**
+  - **FLV**
+- Audio file types:
+  - **MP3**
+  - **WAV**
+  - **FLAC**
+  - **OGG**
+  - **M4A**
+  - **OPUS**
+- Document file types:
+  - **PDF**
+  - ***TXT*** (Text files will contain the zip archive *but* when opening your text file, you will see a ton of excess from the extra data of the file)
+- Executable file types:
+  - **EXE**
+  - **DLL**
+  - **MSI**
+  - **ELF**
+  - **APK**
+- Font format file types:
+  - **TTF**
+  - **OTF**
+  - **WOFF**
+  - **WOFF2**
